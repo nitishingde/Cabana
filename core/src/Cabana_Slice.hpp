@@ -528,7 +528,7 @@ class Slice
     static constexpr int soa_stride = Stride;
 
     //! Memory space size type.
-    using size_type = typename memory_space::size_type;
+    using size_type = std::size_t;
 
     //! Index type.
     using index_type = Impl::Index<vector_length>;
